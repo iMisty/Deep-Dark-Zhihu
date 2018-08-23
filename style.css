@@ -95,6 +95,9 @@
     border: none !important;
     background: #222 !important;
 }
+.Topic-bar--borderBottom{
+  background-color: #222;
+}
 /* 消息页处理 */
 .PushNotifications-item a{
     color: #57b1fd !important;
