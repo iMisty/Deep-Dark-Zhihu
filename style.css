@@ -63,12 +63,12 @@
     color: #999 !important;
 }
 /* 专栏首页背景及文字夜间模式处理 */
-.columnHeader{
+.ColumnHeader{
     background-color: #222 !important;
     color: #ddd !important;
 }
-.columnHeader-Title,.ColumnHeader-Desc{
-    color: #fff;
+.ColumnHeader-Title,.ColumnHeader-Desc{
+    color: #fff !important;
 }
 .SectionTitle{
     color: #fff !important;
