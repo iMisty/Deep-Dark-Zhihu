@@ -106,8 +106,11 @@
 .writePin-content{
     background: #222 !important;
 }
-/* 屏蔽5个按钮的付费显示,回归纯粹 */
+/* 屏蔽付费显示,回归纯粹 */
 .GlobalSideBar-categoryItem:nth-child(2),.GlobalSideBar-categoryItem:nth-child(5){
+    display: none;
+}
+.GlobalSideBar-balanceItem,.GlobalSideBar-couponItem{
     display: none;
 }
 /* Miya Edit End */
