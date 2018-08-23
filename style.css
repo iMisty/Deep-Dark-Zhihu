@@ -123,6 +123,45 @@
 .GlobalSideBar-balanceItem,.GlobalSideBar-couponItem{
     display: none;
 }
+/* 给有些时候点进去的书店 */
+.PageHeader{
+  background-color: #222 !important;
+}
+.Pub-BookInfo h1{
+  color: #fff !important;
+}
+.Pub-BookVipEntrance{
+  display: none;
+}
+.PubIndex-book-main .Summary .TabContent .ShortDesc{
+  color: #999 !important;
+  font-weight: 800 !important;
+}
+.Pub-markdownView p,.ExtInfo p,
+.PubBook-RelativeListItem-title,
+.PubBook-RelativeListItem-description,
+.AuthorName{
+  color: #999;
+}
+/* 在线读书 */
+/* 屏蔽烦人的二维码 */
+.reader-app-qrcode{
+  display: none;
+}
+.Pub-reader-app-header .reader-nav,
+.Pub-reader-app-header,
+.reader-container,
+.PubHTML.theme-default.justify{
+  background-color: #222 !important;
+}
+.PubHTML.theme-default.justify div,
+.reader-book-info a section h3,
+.reader-book-info a section span{
+  color: #999;
+}
+.Pub-reader-bottom-bar{
+  background: hsla(0,0,0,.95) !important;
+}
 /* Miya Edit End */
 
 
