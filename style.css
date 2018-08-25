@@ -43,19 +43,30 @@
   }
 
 /* Miya Edit Start */
+
 /* 问题页:我真不想看到 Live 推荐 */
-.RelatedCommoditles-title,.RelatedCommodities-list{
+.RelatedCommoditles-title,
+.RelatedCommodities-list,
+/* 我也不想看到 ADBlock 屏蔽提示 */
+.AdblockBanner,
+/* 屏蔽付费显示,回归纯粹 */
+.GlobalSideBar-categoryItem:nth-child(2),
+.GlobalSideBar-categoryItem:nth-child(5),
+.GlobalSideBar-balanceItem,
+.GlobalSideBar-couponItem,
+/* 屏蔽烦人的二维码 */
+.reader-app-qrcode{
     display: none;
 }
 /* 实在想看也要把字体颜色改一下 */
-.RelatedCommodities-subject{
-    color: #999 !important;
-}
+.RelatedCommodities-subject,
 /* 回答问题页文字处理 */
 .QuestionSuggestListTitle h4,
 .zm-side-nav-link,
 /* 个人主页文字处理 */
-.Profile-lightItemName{
+.Profile-lightItemName,
+/* 专栏卡片处 */
+.RichContent-inner{
     color: #999 !important;
 }
 /* 专栏首页背景及文字夜间模式处理 */
@@ -71,18 +82,19 @@
     background-color: #222;
 }
 /* 专栏文章卡片处夜间模式处理 */
-.Column-ArticleList div{
+.Column-ArticleList div,
+.ArticleItem,
+/* 话题页 */
+.Topic-bar--borderBottom,
+/* 写想法 */
+.writePin-content{
     background-color: #222;
 }
-.ArticleItem{
-    background-color: #222;
+.ArticleItem-Title,
+.Tag{
+    color: #fff !important;
 }
-.ArticleItem-Title{
-    color: #fff;
-}
-.RichContent-inner{
-    color: #999;
-}
+/* 代码高亮 */
 code{
   color: #8dcdf6 !important;
 }
@@ -97,12 +109,6 @@ code{
     border: none !important;
     background: #222 !important;
 }
-.Topic-bar--borderBottom{
-  background-color: #222;
-}
-.Tag{
-  color: #fff !important;
-}
 .Topic-bar{
   background-color: transparent !important; 
 }
@@ -113,30 +119,18 @@ code{
 .PushNotifications-item{
     color: #999 !important;
 }
-/* 写想法 */
-.writePin-content{
-    background: #222 !important;
-}
 /* 专栏邀请界面 */
-.InvitationContent{
+.InvitationContent,
+/* 在线读书 */
+.Pub-BookInfo h1{
   color:#fff !important;
 }
 .InvitationContent b{
   color:#57b1fd !important;
 }
-/* 屏蔽付费显示,回归纯粹 */
-.GlobalSideBar-categoryItem:nth-child(2),.GlobalSideBar-categoryItem:nth-child(5){
-    display: none;
-}
-.GlobalSideBar-balanceItem,.GlobalSideBar-couponItem{
-    display: none;
-}
 /* 给有些时候点进去的书店 */
 .PageHeader{
   background-color: #222 !important;
-}
-.Pub-BookInfo h1{
-  color: #fff !important;
 }
 .Pub-BookVipEntrance{
   display: none;
@@ -152,10 +146,6 @@ code{
   color: #999;
 }
 /* 在线读书 */
-/* 屏蔽烦人的二维码 */
-.reader-app-qrcode{
-  display: none;
-}
 .Pub-reader-app-header .reader-nav,
 .Pub-reader-app-header,
 .reader-container,
@@ -169,6 +159,13 @@ code{
 }
 .Pub-reader-bottom-bar{
   background: hsla(0,0,0,.95) !important;
+}
+/* 不要忘了登录页,虽然只会看到一次 */
+.Login-options{
+  background: transparent !important;
+}
+.SignContainer-switch{
+  background-color: #222 !important;
 }
 /* Miya Edit End */
 
