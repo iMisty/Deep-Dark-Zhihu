@@ -66,7 +66,10 @@
 /* 个人主页文字处理 */
 .Profile-lightItemName,
 /* 专栏卡片处 */
-.RichContent-inner{
+.RichContent-inner,
+/* 被封号的提示条文字 */
+.UserStatus-warnText span
+{
     color: #999 !important;
 }
 /* 专栏首页背景及文字夜间模式处理 */
