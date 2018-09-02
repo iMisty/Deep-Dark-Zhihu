@@ -68,7 +68,9 @@
 /* 专栏卡片处 */
 .RichContent-inner,
 /* 被封号的提示条文字 */
-.UserStatus-warnText span
+.UserStatus-warnText span,
+/* 知乎谨慎阅读回答提醒 */
+Annotation-markTitle
 {
     color: #999 !important;
 }
