@@ -92,8 +92,12 @@ Annotation-markTitle
 /* 话题页 */
 .Topic-bar--borderBottom,
 /* 写想法 */
-.writePin-content{
-    background-color: #222;
+.writePin-content,
+/* 站务申诉页 */
+.Community-body,
+.ReportedItem-detial
+{
+    background-color: #222 !important;
 }
 .ArticleItem-Title,
 .Tag{
@@ -172,6 +176,7 @@ code{
 .SignContainer-switch{
   background-color: #222 !important;
 }
+
 /* Miya Edit End */
 
 
