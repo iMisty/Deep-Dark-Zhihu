@@ -70,7 +70,12 @@
 /* 被封号的提示条文字 */
 .UserStatus-warnText span,
 /* 知乎谨慎阅读回答提醒 */
-Annotation-markTitle
+.Annotation-markTitle,
+/* 专题文字颜色 */
+.Header-introduction,
+.NewsSpecial-Section .Section-title,
+.NewsSpecial-ContentItem .NewsSpecial-ContentItem-introduction,
+.Rich-content
 {
     color: #999 !important;
 }
@@ -95,12 +100,23 @@ Annotation-markTitle
 .writePin-content,
 /* 站务申诉页 */
 .Community-body,
-.ReportedItem-detial
+.ReportedItem-detial,
+/* 专题背景 */
+.NewsSpecial-Header,
+.NewsSpecial-Section,
+.NewsSpecial-SubModule,
+.Special-list-wrapper
 {
     background-color: #222 !important;
 }
 .ArticleItem-Title,
-.Tag{
+.Tag,
+/* 专题标题文字颜色 */
+.Header-title,
+.NewsSpecial-SubModuleNav a,
+a h4,
+.NewsSpecial-Section .Section-title
+{
     color: #fff !important;
 }
 /* 代码高亮 */
@@ -176,7 +192,9 @@ code{
 .SignContainer-switch{
   background-color: #222 !important;
 }
-
+.NewsSpecial-Section{
+  border-bottom: 10px solid #222 !important;
+}
 /* Miya Edit End */
 
 
