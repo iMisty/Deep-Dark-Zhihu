@@ -55,7 +55,11 @@
 .GlobalSideBar-balanceItem,
 .GlobalSideBar-couponItem,
 /* 屏蔽烦人的二维码 */
-.reader-app-qrcode{
+.reader-app-qrcode,
+/* 不想看到读书VIP */
+.Pub-BookVipEntrance,
+.topics-plaza
+{
     display: none;
 }
 /* 实在想看也要把字体颜色改一下 */
@@ -69,35 +73,52 @@
 .RichContent-inner,
 /* 被封号的提示条文字 */
 .UserStatus-warnText span,
+/* 消息页 */
+.PushNotifications-item,
+/* 在线读书 */
+.PubIndex-book-main .Summary .TabContent .ShortDesc,
+.Pub-markdownView p,.ExtInfo p,
+.PubBook-RelativeListItem-title,
+.PubBook-RelativeListItem-description,
+.AuthorName,
+.PubHTML.theme-default.justify div,
+.reader-book-info a section h3,
+.reader-book-info a section span,
 /* 知乎谨慎阅读回答提醒 */
 .Annotation-markTitle,
 /* 专题文字颜色 */
 .Header-introduction,
 .NewsSpecial-Section .Section-title,
 .NewsSpecial-ContentItem .NewsSpecial-ContentItem-introduction,
-.Rich-content
-{
+.Rich-content{
     color: #999 !important;
 }
 /* 专栏首页背景及文字夜间模式处理 */
-.ColumnHeader{
-    background-color: #222 !important;
-    color: #ddd !important;
-}
-.ColumnHeader-Title,.ColumnHeader-Desc{
-    color: #fff !important;
-}
+.ColumnHeader,
+.ColumnHeader-Title,
+.ColumnHeader-Desc,
 .SectionTitle{
     color: #fff !important;
-    background-color: #222;
 }
-/* 专栏文章卡片处夜间模式处理 */
+/* 专栏 */
 .Column-ArticleList div,
 .ArticleItem,
+.ColumnHeader,
+.SectionTitle
 /* 话题页 */
 .Topic-bar--borderBottom,
+.topics-plaza,
+/* 给有些时候点进去的书店 */
+.PageHeader,
 /* 写想法 */
 .writePin-content,
+/* 在线读书 */
+.Pub-reader-app-header .reader-nav,
+.Pub-reader-app-header,
+.reader-container,
+.PubHTML.theme-default.justify,
+/* 登录页 */
+.SignContainer-switch,
 /* 站务申诉页 */
 .Community-body,
 .ReportedItem-detial,
@@ -105,8 +126,7 @@
 .NewsSpecial-Header,
 .NewsSpecial-Section,
 .NewsSpecial-SubModule,
-.Special-list-wrapper
-{
+.Special-list-wrapper{
     background-color: #222 !important;
 }
 .ArticleItem-Title,
@@ -115,8 +135,11 @@
 .Header-title,
 .NewsSpecial-SubModuleNav a,
 a h4,
-.NewsSpecial-Section .Section-title
-{
+.NewsSpecial-Section .Section-title,
+/* 专栏邀请界面 */
+.InvitationContent,
+/* 在线读书 */
+.Pub-BookInfo h1{
     color: #fff !important;
 }
 /* 代码高亮 */
@@ -127,70 +150,23 @@ code{
   color: #c7814b !important;
 }
 /* 话题页处理 */
-.zm-topic-cat-item a{
-    color: #57b1fd !important;
-}
-.topics-plaza{
-    border: none !important;
-    background: #222 !important;
-}
-.Topic-bar{
-  background-color: transparent !important; 
-}
+.zm-topic-cat-item a,
 /* 消息页处理 */
-.PushNotifications-item a{
-    color: #57b1fd !important;
-}
-.PushNotifications-item{
-    color: #999 !important;
-}
-/* 专栏邀请界面 */
-.InvitationContent,
-/* 在线读书 */
-.Pub-BookInfo h1{
-  color:#fff !important;
-}
+.PushNotifications-item a,
 .InvitationContent b{
-  color:#57b1fd !important;
-}
-/* 给有些时候点进去的书店 */
-.PageHeader{
-  background-color: #222 !important;
-}
-.Pub-BookVipEntrance{
-  display: none;
+    color: #57b1fd !important;
 }
 .PubIndex-book-main .Summary .TabContent .ShortDesc{
-  color: #999 !important;
   font-weight: 800 !important;
-}
-.Pub-markdownView p,.ExtInfo p,
-.PubBook-RelativeListItem-title,
-.PubBook-RelativeListItem-description,
-.AuthorName{
-  color: #999;
-}
-/* 在线读书 */
-.Pub-reader-app-header .reader-nav,
-.Pub-reader-app-header,
-.reader-container,
-.PubHTML.theme-default.justify{
-  background-color: #222 !important;
-}
-.PubHTML.theme-default.justify div,
-.reader-book-info a section h3,
-.reader-book-info a section span{
-  color: #999;
 }
 .Pub-reader-bottom-bar{
   background: hsla(0,0,0,.95) !important;
 }
+/* 代码条 */
+.Topic-bar,
 /* 不要忘了登录页,虽然只会看到一次 */
 .Login-options{
   background: transparent !important;
-}
-.SignContainer-switch{
-  background-color: #222 !important;
 }
 .NewsSpecial-Section{
   border-bottom: 10px solid #222 !important;
