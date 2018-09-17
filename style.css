@@ -90,14 +90,37 @@
 .Header-introduction,
 .NewsSpecial-Section .Section-title,
 .NewsSpecial-ContentItem .NewsSpecial-ContentItem-introduction,
-.Rich-content{
+.Rich-content,
+/* 设置页 */
+.SettingsFAQ-faqTitle,
+.UserPageItem .UserPageItem-name,
+.ExpandableField-title,
+.OpposeReasonPreference-title
+{
     color: #999 !important;
 }
 /* 专栏首页背景及文字夜间模式处理 */
 .ColumnHeader,
 .ColumnHeader-Title,
 .ColumnHeader-Desc,
-.SectionTitle{
+.SectionTitle,
+/* 专栏 */
+.ArticleItem-Title,
+.Tag,
+/* 专题标题文字颜色 */
+.Header-title,
+.NewsSpecial-SubModuleNav a,
+a h4,
+.NewsSpecial-Section .Section-title,
+/* 专栏邀请界面 */
+.InvitationContent,
+/* 在线读书 */
+.Pub-BookInfo h1,
+/* 设置页 */
+SettingsFAQ-pageTitle,
+.SingleCheckRadio,
+.SettingsTitle-title,
+.SettingsTitle-subTitle{
     color: #fff !important;
 }
 /* 专栏 */
@@ -126,21 +149,12 @@
 .NewsSpecial-Header,
 .NewsSpecial-Section,
 .NewsSpecial-SubModule,
-.Special-list-wrapper{
+.Special-list-wrapper,
+/* 设置页 */
+.SettingsMain-mainColumn,
+.ExpandableField
+{
     background-color: #222 !important;
-}
-.ArticleItem-Title,
-.Tag,
-/* 专题标题文字颜色 */
-.Header-title,
-.NewsSpecial-SubModuleNav a,
-a h4,
-.NewsSpecial-Section .Section-title,
-/* 专栏邀请界面 */
-.InvitationContent,
-/* 在线读书 */
-.Pub-BookInfo h1{
-    color: #fff !important;
 }
 /* 代码高亮 */
 code{
@@ -170,6 +184,14 @@ code{
 }
 .NewsSpecial-Section{
   border-bottom: 10px solid #222 !important;
+}
+.SettingFAQ,.SettingsMain-mainColumn,.SettingsMain-page,.BlockedFollowees{
+  border: none !important;
+}
+.AccountSocial>h4,
+.AccountSocial-name
+{
+  color: #ddd !important;
 }
 /* Miya Edit End */
 

@@ -11,6 +11,8 @@
 3. Enjoy
 
 ## 更新日志
+### 2018.9.17更新
+- 新增加了设置页面的背景
 ### 2018.9.13更新
 - 增加专题部分文字与背景
 - 修复个人主页顶部提示条不生效问题
@@ -45,6 +47,7 @@
 
 ## 贡献者
 1. [LePtC](https://userstyles.org/styles/138553/dark-zhihu-leptc-mod)
-2. [Miya](https://miya.moe)
+2. [Miya](https://miya.moe/archives/30.html)
+
 ## 许可
 CC0 - Public Domain
