@@ -92,6 +92,7 @@
 .NewsSpecial-ContentItem .NewsSpecial-ContentItem-introduction,
 .Rich-content,
 /* 设置页 */
+.SettingsNav-link.is-active,
 .SettingsFAQ-faqTitle,
 .UserPageItem .UserPageItem-name,
 .ExpandableField-title,
@@ -193,6 +194,9 @@ code{
 .AccountSocial-name
 {
   color: #ddd !important;
+}
+.SettingsNav-link.is-active svg{
+  fill: currentColor !important;
 }
 /* Miya Edit End */
 
