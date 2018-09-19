@@ -151,6 +151,7 @@ SettingsFAQ-pageTitle,
 .NewsSpecial-SubModule,
 .Special-list-wrapper,
 /* 设置页 */
+.SettingsFAQ,
 .SettingsMain-mainColumn,
 .ExpandableField
 {
@@ -185,7 +186,7 @@ code{
 .NewsSpecial-Section{
   border-bottom: 10px solid #222 !important;
 }
-.SettingFAQ,.SettingsMain-mainColumn,.SettingsMain-page,.BlockedFollowees{
+.SettingsFAQ,.SettingsMain-mainColumn,.SettingsMain-page,.BlockedFollowees{
   border: none !important;
 }
 .AccountSocial>h4,
