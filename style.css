@@ -118,7 +118,7 @@ a h4,
 /* 在线读书 */
 .Pub-BookInfo h1,
 /* 设置页 */
-SettingsFAQ-pageTitle,
+.SettingsFAQ-pageTitle,
 .SingleCheckRadio,
 .SettingsTitle-title,
 .SettingsTitle-subTitle{
@@ -128,7 +128,7 @@ SettingsFAQ-pageTitle,
 .Column-ArticleList div,
 .ArticleItem,
 .ColumnHeader,
-.SectionTitle
+.SectionTitle,
 /* 话题页 */
 .Topic-bar--borderBottom,
 .topics-plaza,
