@@ -155,8 +155,11 @@ a h4,
 .SettingsFAQ,
 .SettingsMain-mainColumn,
 .ExpandableField,
+/* 斗图版知乎评论区 */
 .CommentsV2-footer,
-.CommentEditorV2-inputUpload
+.CommentEditorV2-inputUpload,
+.NestComment--child,
+.CommentMoreReplyButton
 {
     background-color: #222 !important;
 }
