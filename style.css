@@ -154,7 +154,9 @@ a h4,
 /* 设置页 */
 .SettingsFAQ,
 .SettingsMain-mainColumn,
-.ExpandableField
+.ExpandableField,
+.CommentsV2-footer,
+.CommentEditorV2-inputUpload
 {
     background-color: #222 !important;
 }
@@ -262,7 +264,7 @@ code{
 .Input-wrapper, .PushNotifications-content, .Messages-content, .Popover-fixedTargetContainer .Menu-item, .Notifications-footer, .Messages-footer, .Modal-inner, 
 .PageHeader-content, .ProfileHeader-wrapper, .Card, .ContentItem-actions,
 .HoverCard, .Menu, .menu-item, .NumberBoard-value, .PushNotifications-item span,
-.CommentItem, .CommentTopbar, .CommentTopbar-title, .Select-button, .Select-list, .Comments-footer, .DraftEditor-root,
+.CommentItemV2, .CommentTopbar, .CommentTopbar-title, .Select-button, .Select-list, .Comments-footer, .DraftEditor-root,
 .ContentItem-title, ._CommentForm_root_1-ko, ._InputBox_empty_3_ur, .AnswerForm-footer,
 .QuestionHeader, .QuestionHeader-footer, .QuestionHeader-title, .Modal-title, 
 .Navbar, .BlockTitle-title, .PostIndex-recommendZone::before, 
