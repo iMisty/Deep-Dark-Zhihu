@@ -96,7 +96,7 @@
 .SettingsFAQ-faqTitle,
 .UserPageItem .UserPageItem-name,
 .ExpandableField-title,
-.OpposeReasonPreference-title
+.OpposeReasonPreference-title,
 {
     color: #999 !important;
 }
@@ -121,7 +121,9 @@ a h4,
 .SettingsFAQ-pageTitle,
 .SingleCheckRadio,
 .SettingsTitle-title,
-.SettingsTitle-subTitle{
+.SettingsTitle-subTitle,
+/* 不知道哪来的新版热榜 */
+.HotItem-title{
     color: #fff !important;
 }
 /* 专栏 */
@@ -160,7 +162,9 @@ a h4,
 .CommentEditorV2-inputUpload,
 .NestComment--child,
 .CommentMoreReplyButton,
-.CommentListV2-divider
+.CommentListV2-divider,
+/* 不知道是哪来的新版热榜 */
+.HotItem
 {
     background-color: #222 !important;
 }
@@ -207,6 +211,17 @@ code{
 .CommentListV2-divider{
   margin: 0 !important;
   padding: 0 20px;
+}
+/* 新版知乎热榜 */
+.HotItem-excerpt,
+.GlobalWrite-navTitle{
+  color: #777 !important;
+}
+.WritePinV2-buttonMenu .WritePinV2-upload-disabled:before{
+  background: none;
+}
+.WritePinV2-buttonMenu .WritePinV2-uploadButton{
+  color: #058fff;
 }
 /* Miya Edit End */
 
