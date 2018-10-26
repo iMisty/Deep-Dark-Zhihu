@@ -98,7 +98,7 @@
 .ExpandableField-title,
 .OpposeReasonPreference-title,
 {
-    color: #999 !important;
+  color: #999 !important;
 }
 /* 专栏首页背景及文字夜间模式处理 */
 .ColumnHeader,
@@ -165,7 +165,9 @@ a h4,
 .CommentMoreReplyButton,
 .CommentListV2-divider,
 /* 不知道是哪来的新版热榜 */
-.HotItem
+.HotItem,
+.CommentListV2-header-divider,
+.CommentListV2-action
 {
     background-color: #222 !important;
 }
