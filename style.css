@@ -1,7 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
-@-moz-document url-prefix("http://www.zhihu"), url-prefix("http://zhuanlan.zhihu"),
-  url-prefix("https://www.zhihu"), url-prefix("https://zhuanlan.zhihu")
+@-moz-document url-prefix("http://zhihu.com"),url-prefix("https://zhihu.com"),url-prefix("http://www.zhihu.com"), url-prefix("http://zhuanlan.zhihu.com"),
+  url-prefix("https://www.zhihu.com"), url-prefix("https://zhuanlan.zhihu.com")
 {
 
   #home-suggest-block, .recommend-posts, .SidebarSection,  /* 我不看推荐 */
