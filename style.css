@@ -226,6 +226,10 @@ code{
 .WritePinV2-buttonMenu .WritePinV2-uploadButton{
   color: #058fff;
 }
+.CommentsV2-disabledText{
+  background-color: none;
+  border: none;
+}
 /* Miya Edit End */
 
 
