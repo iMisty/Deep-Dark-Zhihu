@@ -11,6 +11,8 @@
 3. Enjoy
 
 ## 更新日志
+### 2018.11.16更新
+- 新增新版站务中心
 ### 2018.10.29更新
 - 更新CSS作用域题头
 ### 2018.10.24更新
@@ -61,7 +63,7 @@
 
 ## 贡献者
 1. [LePtC](https://userstyles.org/styles/138553/dark-zhihu-leptc-mod)
-2. [Miya](https://miya.moe/archives/30.html)
+2. [Miya](https://blog.yukarin.me/archives/17.html)
 
 ## 许可
 CC0 - Public Domain

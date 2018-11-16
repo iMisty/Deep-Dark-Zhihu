@@ -1,9 +1,6 @@
-@namespace url(http://www.w3.org/1999/xhtml);
-
 @-moz-document url-prefix("http://zhihu.com"),url-prefix("https://zhihu.com"),url-prefix("http://www.zhihu.com"), url-prefix("http://zhuanlan.zhihu.com"),
   url-prefix("https://www.zhihu.com"), url-prefix("https://zhuanlan.zhihu.com")
 {
-
   #home-suggest-block, .recommend-posts, .SidebarSection,  /* 我不看推荐 */
 .CornerButtons, .FeedbackButton-button-3waL, .btn-backtotop,  /* 不要反馈按钮 */
 .AppBanner /* App */
@@ -45,7 +42,7 @@
 /* Miya Edit Start */
 
 /* 问题页:我真不想看到 Live 推荐 */
-.RelatedCommoditles-title,
+  .RelatedCommoditles-title,
 .RelatedCommodities-list,
 /* 我也不想看到 ADBlock 屏蔽提示 */
 .AdblockBanner,
@@ -59,11 +56,11 @@
 /* 不想看到读书VIP */
 .Pub-BookVipEntrance,
 .topics-plaza
-{
+  {
     display: none;
-}
+  }
 /* 实在想看也要把字体颜色改一下 */
-.RelatedCommodities-subject,
+  .RelatedCommodities-subject,
 /* 回答问题页文字处理 */
 .QuestionSuggestListTitle h4,
 .zm-side-nav-link,
@@ -97,11 +94,13 @@
 .UserPageItem .UserPageItem-name,
 .ExpandableField-title,
 .OpposeReasonPreference-title,
-{
-  color: #999 !important;
-}
+/* 不知道哪来的新版热榜 */
+.HotItem-title
+  {
+    color: #999 !important;
+  }
 /* 专栏首页背景及文字夜间模式处理 */
-.ColumnHeader,
+  .ColumnHeader,
 .ColumnHeader-Title,
 .ColumnHeader-Desc,
 .SectionTitle,
@@ -113,7 +112,6 @@
 .NewsSpecial-SubModuleNav a,
 a h4,
 .NewsSpecial-Section .Section-title,
-.CommentsV2-withPagination,
 /* 专栏邀请界面 */
 .InvitationContent,
 /* 在线读书 */
@@ -122,13 +120,12 @@ a h4,
 .SettingsFAQ-pageTitle,
 .SingleCheckRadio,
 .SettingsTitle-title,
-.SettingsTitle-subTitle,
-/* 不知道哪来的新版热榜 */
-.HotItem-title{
+.SettingsTitle-subTitle
+  {
     color: #fff !important;
-}
+  }
 /* 专栏 */
-.Column-ArticleList div,
+  .Column-ArticleList div,
 .ArticleItem,
 .ColumnHeader,
 .SectionTitle,
@@ -168,72 +165,118 @@ a h4,
 .HotItem,
 .CommentListV2-header-divider,
 .CommentListV2-action
-{
+  {
     background-color: #222 !important;
-}
+  }
 /* 代码高亮 */
-code{
-  color: #8dcdf6 !important;
-}
-.highlight .s1{
-  color: #c7814b !important;
-}
+  code
+  {
+    color: #8dcdf6 !important;
+  }
+
+  .highlight .s1
+  {
+    color: #c7814b !important;
+  }
 /* 话题页处理 */
-.zm-topic-cat-item a,
+  .zm-topic-cat-item a,
 /* 消息页处理 */
 .PushNotifications-item a,
-.InvitationContent b{
+.InvitationContent b
+  {
     color: #57b1fd !important;
-}
-.PubIndex-book-main .Summary .TabContent .ShortDesc{
-  font-weight: 800 !important;
-}
-.Pub-reader-bottom-bar{
-  background: hsla(0,0,0,.95) !important;
-}
+  }
+
+  .PubIndex-book-main .Summary .TabContent .ShortDesc
+  {
+    font-weight: 800 !important;
+  }
+
+  .Pub-reader-bottom-bar
+  {
+    background: hsla(0,0,0,.95) !important;
+  }
 /* 代码条 */
-.Topic-bar,
+  .Topic-bar,
 /* 不要忘了登录页,虽然只会看到一次 */
-.Login-options{
-  background: transparent !important;
-}
-.NewsSpecial-Section{
-  border-bottom: 10px solid #222 !important;
-}
-.SettingsFAQ,.SettingsMain-mainColumn,.SettingsMain-page,.BlockedFollowees{
-  border: none !important;
-}
-.AccountSocial>h4,
+.Login-options
+  {
+    background: transparent !important;
+  }
+
+  .NewsSpecial-Section
+  {
+    border-bottom: 10px solid #222 !important;
+  }
+
+  .SettingsFAQ,.SettingsMain-mainColumn,.SettingsMain-page,.BlockedFollowees
+  {
+    border: none !important;
+  }
+
+  .AccountSocial>h4,
 .AccountSocial-name
-{
-  color: #ddd !important;
-}
-.SettingsNav-link.is-active svg{
-  fill: currentColor !important;
-}
-.CommentListV2-divider{
-  margin: 0 !important;
-  padding: 0 20px;
-}
+  {
+    color: #ddd !important;
+  }
+
+  .SettingsNav-link.is-active svg
+  {
+    fill: currentColor !important;
+  }
+
+  .CommentListV2-divider
+  {
+    margin: 0 !important;
+    padding: 0 20px;
+  }
 /* 新版知乎热榜 */
-.HotItem-excerpt,
-.GlobalWrite-navTitle{
-  color: #777 !important;
-}
-.WritePinV2-buttonMenu .WritePinV2-upload-disabled:before{
-  background: none;
-}
-.WritePinV2-buttonMenu .WritePinV2-uploadButton{
-  color: #058fff;
-}
-.CommentsV2-disabledText{
-  background-color: none;
-  border: none;
-}
+  .HotItem-excerpt,
+.GlobalWrite-navTitle
+  {
+    color: #777 !important;
+  }
+
+  .WritePinV2-buttonMenu .WritePinV2-upload-disabled:before
+  {
+    background: none;
+  }
+
+  .WritePinV2-buttonMenu .WritePinV2-uploadButton
+  {
+    color: #058fff;
+  }
+
+  .CommentsV2-disabledText
+  {
+    background-color: none;
+    border: none;
+  }
+  /* 新版站务中心 */
+  .Community,
+  .Community-ContentLayout{
+    background: none;
+  }
+  .Report-header th{
+    background: #222;
+    color: #999;
+  }
+  .Report-list tr:nth-child(odd){
+    background: #222;
+  }
+  .Report-list tr:nth-child(2n){
+    background: #333;
+  }
+  .ReportItem-row td{
+    color: #999;
+  }
+  .ReportItem-Link,.Button--link{
+    color: #57b1fd;
+  }
 /* Miya Edit End */
 
 
-.unread,
+  .unread,
 .highlight, .Messages-newItem, 
 .PushNotifications-newItem, .PushNotifications-followItem:hover,
 .Select-option:hover,
@@ -385,23 +428,5 @@ code{
   .global-header,.qr
   {
     visibility: hidden!important;
-  }
-}
-
-@-moz-document url-prefix(http://www.zhihu.com/read)
-{
-
-  html,.right-pane,.question-description,.entry-title,.answer-body,.show-answer,.show-answer h2,.show-answer p,.segmented-control a,#answer-content
-  {
-    background: none#222!important;
-    color: #bbb!important;
-    text-shadow: none!important;
-  }
-
-  .answer-info,.filter,.vote-count,.back
-  {
-    background: none#222!important;
-    color: #bbb!important;
-    text-shadow: none!important;
   }
 }
