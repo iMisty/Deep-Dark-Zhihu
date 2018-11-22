@@ -254,7 +254,8 @@ a h4,
   }
   /* 新版站务中心 */
   .Community,
-  .Community-ContentLayout{
+  .Community-ContentLayout,
+  .Toolbar{
     background: none;
   }
   .Report-header th{
@@ -270,7 +271,8 @@ a h4,
   .ReportItem-row td{
     color: #999;
   }
-  .ReportItem-Link,.Button--link{
+  .ReportItem-Link,.Button--link,
+  .Toolbar-Link a, html[data-theme=dark] .Toolbar-Link a{
     color: #57b1fd;
   }
 /* Miya Edit End */
