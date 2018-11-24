@@ -274,6 +274,12 @@ color: #777 !important;
 .Toolbar-Link a, html[data-theme=dark] .Toolbar-Link a{
     color: #57b1fd;
 }
+/* PC上个人资料的想法 */
+.PinItem-content-repin,
+/* 专栏评论区 */
+.CommentsV2-withPagination{
+  background: none;
+}
 /* Miya Edit End */
 
 
