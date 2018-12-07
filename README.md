@@ -11,6 +11,8 @@
 3. Enjoy
 
 ## 更新日志
+### 2018.12.07更新
+- 修复评论区展开对话后返回选项字体颜色
 ### 2018.11.24更新
 - 修复专栏评论区的空白
 - 修复个人主页下想法处的空白
@@ -66,7 +68,7 @@
 
 ## 贡献者
 1. [LePtC](https://userstyles.org/styles/138553/dark-zhihu-leptc-mod)
-2. [Miya](https://blog.yukarin.me/archives/17.html)
+2. [Misty](https://blog.yukarin.me/archives/17.html)
 
 ## 许可
 CC0 - Public Domain

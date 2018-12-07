@@ -267,7 +267,8 @@ color: #777 !important;
 .Report-list tr:nth-child(2n){
     background: #333;
 }
-.ReportItem-row td{
+.ReportItem-row td,
+.CommentTopbar-back{
     color: #999;
 }
 .ReportItem-Link,.Button--link,
