@@ -281,6 +281,10 @@ color: #777 !important;
 .CommentsV2-withPagination{
   background: none;
 }
+/* 广告的字体当然得要有点偏差 */
+.Advert-title{
+  color: #777;
+}
 /* Miya Edit End */
 
 
