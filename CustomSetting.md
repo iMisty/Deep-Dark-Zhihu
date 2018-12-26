@@ -6,3 +6,8 @@
 .Banner{
 display:/*[[HideADs]]*/;
 }
+
+### 隐藏回答区域内的iframe广告
+iframe{
+display: /*[[HideIframeADs]]*/;
+}
