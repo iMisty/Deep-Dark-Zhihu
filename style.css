@@ -80,7 +80,7 @@ pre .nt
 .PubHTML.theme-default.justify div,
 .reader-book-info a section h3,
 .reader-book-info a section span,
-/* 知乎谨慎阅读回答提醒 */
+/* 知乎谨慎阅读回答提醒 */
 .Annotation-markTitle,
 /* 专题文字颜色 */
 .Header-introduction,
@@ -284,6 +284,9 @@ color: #777 !important;
 /* 广告的字体当然得要有点偏差 */
 .Advert-title{
   color: #777;
+}
+.Advert-brand-name--hasExtra{
+    color: #8590A6
 }
 /* Miya Edit End */
 
