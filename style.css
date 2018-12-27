@@ -285,6 +285,17 @@ color: #777 !important;
 .Advert-title{
   color: #777;
 }
+.QuestionRelatedCard{
+    background: transparent;
+    border: 1px solid #999;
+}
+.QuestionRelatedCard-content span{
+color: #999;
+}
+
+.ProfileSideCreator-title{
+color: #fff
+}
 .Advert-brand-name--hasExtra{
     color: #8590A6
 }
