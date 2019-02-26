@@ -307,6 +307,10 @@ color: #fff
 .EBookItem-description{
   color: #dedede
 }
+/* 修改掉个人资料里的文字颜色 */
+.Field-card span{
+  color: #999;
+}
 /* Miya Edit End */
 
 
