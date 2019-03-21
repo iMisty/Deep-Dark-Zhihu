@@ -311,6 +311,28 @@ color: #fff
 .Field-card span{
   color: #999;
 }
+/* 创作者中心 */
+.AnalyticsWork-Tabs,
+.AnalyticsWork-entityPage,
+.AnalyticsWork-CreatorSection,
+.CreatorTable-tableHead,
+.CreatorTable-tableRow,
+.Title-main-1ldU,
+.iframeLive-apply-xU_9, .iframeLive-certified-2IOp,
+.iframeLive-iframe_live-WojO,
+.iframeLive-description-2C6O{
+  background-color: #222;
+}
+.CreatorTable-tableRow.CreatorTable-tableRow--hover:hover, .CreatorTable-tableRow.CreatorTable-tableRow--odd{
+  background-color: #444;
+}
+.Title-title-3QaE,.iframeLive-what_zhihu_title-1yQe{
+  color: #fff;
+}
+text.recharts-text,text.recharts-cartesian-axis-tick-value{
+  fill: rgb(255,255,255);
+}
+
 /* Miya Edit End */
 
 
