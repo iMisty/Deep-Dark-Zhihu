@@ -335,7 +335,9 @@ text.recharts-text,text.recharts-cartesian-axis-tick-value{
 .AnalyticsChart-tooltip{
   background: rgba(64,64,64,.87);
 }
-
+span.badge-summary {
+  color: #999 !important;
+}
 /* Miya Edit End */
 
 
