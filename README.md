@@ -82,7 +82,7 @@
 
 ## 贡献者
 1. [LePtC](https://userstyles.org/styles/138553/dark-zhihu-leptc-mod)
-2. [Misty](https://blog.yukarin.me/archives/17.html)
+2. [Misty](https://github.com/iMisty)
 
 ## 许可
 CC0 - Public Domain
