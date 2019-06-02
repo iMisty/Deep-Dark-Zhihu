@@ -341,6 +341,27 @@ span.badge-summary {
 .QuestionTopicReviewCardExtraInfo-cardTitle{
   color: #999;
 }
+/* 从电子书摘录回答 */
+.IntroCard{
+  background-color: #222;
+  border: 1px solid #888;
+}
+.PurchaseBtn-mask{
+  background: -ms-linear-gradient(hsla(0, 0%, 13%, 0.2),#212121);
+  background: -moz-linear-gradient(hsla(0, 0%, 13%, 0.2),#212121);
+  background: -webkit-linear-gradient(hsla(0, 0%, 13%, 0.2),#212121);
+  background: linear-gradient(hsla(0, 0%, 13%, 0.2),#212121);
+}
+/* 创作者中心 */
+.Creator-sideColumn{
+  background: #222;
+}
+.Creator-menuItemHeaderName,
+.CreatorHomeDeltaCount-compare,
+.CreatorHomeAnalyticsData-title,
+.CreatorHomeQuestionRecommend-title{
+  color: #fff;
+}
 /* Miya Edit End */
 
 
