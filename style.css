@@ -361,8 +361,13 @@ span.badge-summary {
 .CreatorHomeAnalyticsData-title,
 .CreatorHomeQuestionRecommend-title,
 /* 稍后回答标题 */
-.ListQuestionItem-title{
+.ListQuestionItem-title,
+.QuestionType{
   color: #fff;
+}
+.QuestionWaiting-typesTopper,
+.QuestionWaiting-types{
+  background: transparent;
 }
 /* Miya Edit End */
 
