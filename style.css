@@ -359,7 +359,9 @@ span.badge-summary {
 .Creator-menuItemHeaderName,
 .CreatorHomeDeltaCount-compare,
 .CreatorHomeAnalyticsData-title,
-.CreatorHomeQuestionRecommend-title{
+.CreatorHomeQuestionRecommend-title,
+/* 稍后回答标题 */
+.ListQuestionItem-title{
   color: #fff;
 }
 /* Miya Edit End */
