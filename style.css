@@ -369,6 +369,10 @@ span.badge-summary {
 .QuestionWaiting-types{
   background: transparent;
 }
+/* 全屏模式回答问题背景 */
+.AnswerForm-fullscreenScroller{
+  background: #222;
+}
 /* Miya Edit End */
 
 
