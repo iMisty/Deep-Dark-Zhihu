@@ -373,6 +373,16 @@ span.badge-summary {
 .AnswerForm-fullscreenScroller{
   background: #222;
 }
+/* 广告也要按照基本法 */
+.Pc-feedAd-card-brand-wrapper>span{
+  color: #fff;
+}
+.Pc-feedAd-card-title{
+  color: #c1c1c1;
+}
+.Pc-feedAd-card-content-detail{
+  color: #999;
+}
 /* Miya Edit End */
 
 
