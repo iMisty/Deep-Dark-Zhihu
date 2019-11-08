@@ -320,7 +320,9 @@ color: #fff
 .Title-main-1ldU,
 .iframeLive-apply-xU_9, .iframeLive-certified-2IOp,
 .iframeLive-iframe_live-WojO,
-.iframeLive-description-2C6O{
+.iframeLive-description-2C6O
+/* 2019.11.10新增 */
+.css-w8abe7{
   background-color: #222;
 }
 .CreatorTable-tableRow.CreatorTable-tableRow--hover:hover, .CreatorTable-tableRow.CreatorTable-tableRow--odd{
@@ -382,6 +384,10 @@ span.badge-summary {
 }
 .Pc-feedAd-card-content-detail{
   color: #999;
+}
+/* 2019.11.10 新增创作者中心 */
+.css-itekwj{
+  color: #fff;
 }
 /* Miya Edit End */
 
