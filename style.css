@@ -386,7 +386,9 @@ span.badge-summary {
 }
 /* 2019.11.10 新增创作者中心 */
 .css-w8abe7,
-.css-icfw9z{
+.css-icfw9z,
+/* 创作数据-内容分析-顶部卡片 */
+.AnalyticsCount{
   background: #222;
 }
 .css-itekwj,
