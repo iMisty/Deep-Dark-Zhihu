@@ -94,7 +94,9 @@ pre .nt
 .ExpandableField-title,
 .OpposeReasonPreference-title,
 /* 不知道哪来的新版热榜 */
-.HotItem-title
+.HotItem-title,
+/* 搜索栏里的小文字 */
+.Search-container .SearchItem-meta
   {
     color: #999 !important;
   }
@@ -399,6 +401,10 @@ span.badge-summary {
 }
 a.css-1yldjmr{
   color: #999;
+}
+/* 私信聊天框 */
+.ChatWrapper .Chat{
+  filter: invert(.8);
 }
 /* Miya Edit End */
 
