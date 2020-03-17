@@ -11,6 +11,8 @@
 3. Enjoy
 
 ## 更新日志
+### 2020.03.17更新
+- 调整刘看山邀请处背景颜色(Thanks [@forest0](https://github.com/iMisty/Deep-Dark-Zhihu/commit/d3dcfe1da1c32717ee47bad8fb7da27b85e234eb))
 ### 2020.02.21更新
 - 修复搜索栏中的文字黑色问题
 - 更新私信聊天框颜色
