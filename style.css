@@ -408,6 +408,10 @@ a.css-1yldjmr{
 }
 /* Miya Edit End */
 
+/* 委托刘看山邀请 */
+.AutoInviteItem-wrapper--desktop {
+    background: #222;
+}
 
 .unread,
 .highlight, .Messages-newItem, 
