@@ -406,6 +406,10 @@ a.css-1yldjmr{
 .ChatWrapper .Chat{
   filter: invert(.8);
 }
+/* 右上角回答按钮 */
+.NewGlobalWrite-topTitle{
+  color: #999;
+}
 /* Miya Edit End */
 
 /* 委托刘看山邀请 */
