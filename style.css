@@ -411,6 +411,12 @@ a.css-1yldjmr{
 .NewGlobalWrite-topTitle{
   color: #999;
 }
+/* 优化电子书搜索栏 */
+.KfeCollection-PcCollegeCard-root{
+  background-color: #222;
+  border: 1px solid #888;
+  border-radius: 4px;
+}
 /* Miya Edit End */
 
 /* 委托刘看山邀请 */
