@@ -424,6 +424,11 @@ a.css-1yldjmr{
     background: #212121;
 }
 
+/* 评论框 */
+.InputLike {
+    border-radius: 0px;
+}
+
 .unread,
 .highlight, .Messages-newItem, 
 .PushNotifications-newItem, .PushNotifications-followItem:hover,
