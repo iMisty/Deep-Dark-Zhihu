@@ -417,6 +417,10 @@ a.css-1yldjmr{
   border: 1px solid #888;
   border-radius: 4px;
 }
+/* 回答内容前提示 */
+.DisclaimerLabel, html[data-theme=dark] .DisclaimerLabel{
+  color:rgb(121, 168, 226);
+}
 /* Miya Edit End */
 
 /* 委托刘看山邀请 */
