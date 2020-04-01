@@ -421,6 +421,10 @@ a.css-1yldjmr{
 .DisclaimerLabel, html[data-theme=dark] .DisclaimerLabel{
   color:rgb(121, 168, 226);
 }
+/* 修改首页阅读全文字样 */
+.ContentItem-more{
+  color: #4196ff;
+}
 /* Miya Edit End */
 
 /* 委托刘看山邀请 */
