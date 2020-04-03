@@ -429,7 +429,12 @@ a.css-1yldjmr{
 .ProfileSideCreator-readCountNumber{
   color: #a9a9a9;
 }
-
+/* 更改新版话题样式 */
+.SearchTopicHeader-IntroductionWrapper,
+.WikiBoxHotList-Title,
+.WikiBoxHotList-Item{
+  color: #999;
+}
 /* Miya Edit End */
 
 /* 委托刘看山邀请 */
