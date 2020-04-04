@@ -435,6 +435,10 @@ a.css-1yldjmr{
 .WikiBoxHotList-Item{
   color: #999;
 }
+.SearchTopicHeader-IntroTail:before{
+  background: none;
+}
+
 /* Miya Edit End */
 
 /* 委托刘看山邀请 */
