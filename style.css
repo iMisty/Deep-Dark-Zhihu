@@ -425,6 +425,10 @@ a.css-1yldjmr{
 .ContentItem-more{
   color: #4196ff;
 }
+/* 修改谢邀 */
+.ThanksForInvitingLabel{
+  color: #4196ff;
+}
 /* 修改首页创作者阅读数文字 */
 .ProfileSideCreator-readCountNumber{
   color: #a9a9a9;
