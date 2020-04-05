@@ -438,7 +438,10 @@ a.css-1yldjmr{
 .SearchTopicHeader-IntroTail:before{
   background: none;
 }
-
+.SearchTopicHeader-IntroTail{
+  color: #81b9ff;
+  background: none;
+}
 /* Miya Edit End */
 
 /* 委托刘看山邀请 */
