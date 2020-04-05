@@ -446,7 +446,22 @@ a.css-1yldjmr{
   color: #81b9ff;
   background: none;
 }
+/* 增加在回答内有视频时的边框及文字 */
+.ZVideoLinkCard-info {
+  background-color: #212121;
+  padding: 12px;
+  border: 1px solid #ffffffa8;
+  border-radius: 0 0 12px 12px;
+  border-top: none;
+}
+.ZVideoLinkCard-title{
+  color: #fff;
+}
 /* Miya Edit End */
+
+
+
+
 
 /* 委托刘看山邀请 */
 .AutoInviteItem-wrapper--desktop {
