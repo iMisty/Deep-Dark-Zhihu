@@ -457,6 +457,10 @@ a.css-1yldjmr{
 .ZVideoLinkCard-title{
   color: #fff;
 }
+/* 新增搜索时间线推荐问题颜色 */
+.TimeBox-ContentTitle{
+  color: #999;
+}
 /* Miya Edit End */
 
 
