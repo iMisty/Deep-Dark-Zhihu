@@ -461,6 +461,14 @@ a.css-1yldjmr{
 .TimeBox-ContentTitle{
   color: #999;
 }
+/* 新版左边栏 */
+.Topstory-widescreenResponsive--fixedFeed{
+  padding-left: 148px;
+}
+.css-1qefhqu{
+  width: 148px;
+  background-color: #222;
+}
 /* Miya Edit End */
 
 
