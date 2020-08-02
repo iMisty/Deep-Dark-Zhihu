@@ -469,11 +469,14 @@ a.css-1yldjmr{
   width: 148px;
   background-color: #222;
 }
+/* 回答中推荐栏目框 */
+.LinkCard-content{
+  background-color:rgba(33,33,33,0.54);
+}
+.LinkCard-title{
+  color: #d3d3d3;
+}
 /* Miya Edit End */
-
-
-
-
 
 /* 委托刘看山邀请 */
 .AutoInviteItem-wrapper--desktop {
