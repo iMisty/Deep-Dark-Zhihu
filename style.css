@@ -476,6 +476,12 @@ a.css-1yldjmr{
 .LinkCard-title{
   color: #d3d3d3;
 }
+/* 盐选专栏提示框 */
+.KfeCollection-IntroCard{
+  background-color: #222;
+  border: 1px solid #d3d3d3;
+  border-radius: 16px;
+}
 /* Miya Edit End */
 
 /* 委托刘看山邀请 */
