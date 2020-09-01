@@ -3,7 +3,8 @@ url-prefix("https://zhihu.com"),
 url-prefix("http://www.zhihu.com"),
 url-prefix("http://zhuanlan.zhihu.com"),
 url-prefix("https://www.zhihu.com"),
-url-prefix("https://zhuanlan.zhihu.com") {
+url-prefix("https://zhuanlan.zhihu.com")
+{
   #home-suggest-block,
   .recommend-posts,
   .SidebarSection,
@@ -14,8 +15,7 @@ url-prefix("https://zhuanlan.zhihu.com") {
   /* 不要反馈按钮 */
   .AppBanner
 
-  /* App */
-    {
+  /* App */ {
     display: none !important;
   }
 
@@ -25,8 +25,7 @@ url-prefix("https://zhuanlan.zhihu.com") {
   .UserLink,
   .CommentItem-context a
 
-  /* 用户名橙色 */
-    {
+  /* 用户名橙色 */ {
     color: #ff8000 !important;
   }
 
@@ -195,7 +194,7 @@ url-prefix("https://zhuanlan.zhihu.com") {
 
   /* 代码高亮 */
   code {
-    color     : #8dcdf6 !important;
+    color: #8dcdf6 !important;
     background: #222 !important;
   }
 
@@ -216,7 +215,7 @@ url-prefix("https://zhuanlan.zhihu.com") {
   }
 
   .Pub-reader-bottom-bar {
-    background: hsla(0, 0, 0, .95) !important;
+    background: hsla(0, 0, 0, 0.95) !important;
   }
 
   /* 代码条 */
@@ -237,7 +236,7 @@ url-prefix("https://zhuanlan.zhihu.com") {
     border: none !important;
   }
 
-  .AccountSocial>h4,
+  .AccountSocial > h4,
   .AccountSocial-name {
     color: #ddd !important;
   }
@@ -247,7 +246,7 @@ url-prefix("https://zhuanlan.zhihu.com") {
   }
 
   .CommentListV2-divider {
-    margin : 0 !important;
+    margin: 0 !important;
     padding: 0 20px;
   }
 
@@ -267,7 +266,7 @@ url-prefix("https://zhuanlan.zhihu.com") {
 
   .CommentsV2-disabledText {
     background-color: none;
-    border          : none;
+    border: none;
   }
 
   /* 新版站务中心 */
@@ -279,7 +278,7 @@ url-prefix("https://zhuanlan.zhihu.com") {
 
   .Report-header th {
     background: #222;
-    color     : #999;
+    color: #999;
   }
 
   .Report-list tr:nth-child(odd) {
@@ -298,7 +297,7 @@ url-prefix("https://zhuanlan.zhihu.com") {
   .ReportItem-Link,
   .Button--link,
   .Toolbar-Link a,
-  html[data-theme=dark] .Toolbar-Link a {
+  html[data-theme='dark'] .Toolbar-Link a {
     color: #57b1fd;
   }
 
@@ -316,7 +315,7 @@ url-prefix("https://zhuanlan.zhihu.com") {
 
   .QuestionRelatedCard {
     background: transparent;
-    border    : 1px solid #999;
+    border: 1px solid #999;
   }
 
   .QuestionRelatedCard-content span {
@@ -324,20 +323,20 @@ url-prefix("https://zhuanlan.zhihu.com") {
   }
 
   .ProfileSideCreator-title {
-    color: #fff
+    color: #fff;
   }
 
   .Advert-brand-name--hasExtra {
-    color: #8590A6
+    color: #8590a6;
   }
 
   /* 那个创作者小模块也要点一下 */
   .CreatorEntrance-title {
-    color: #999
+    color: #999;
   }
 
   .EBookItem-description {
-    color: #dedede
+    color: #dedede;
   }
 
   /* 修改掉个人资料里的文字颜色 */
@@ -375,7 +374,7 @@ url-prefix("https://zhuanlan.zhihu.com") {
   }
 
   .AnalyticsChart-tooltip {
-    background: rgba(64, 64, 64, .87);
+    background: rgba(64, 64, 64, 0.87);
   }
 
   span.badge-summary {
@@ -389,7 +388,7 @@ url-prefix("https://zhuanlan.zhihu.com") {
   /* 从电子书摘录回答 */
   .IntroCard {
     background-color: #222;
-    border          : 1px solid #888;
+    border: 1px solid #888;
   }
 
   .PurchaseBtn-mask {
@@ -425,7 +424,7 @@ url-prefix("https://zhuanlan.zhihu.com") {
   }
 
   /* 广告也要按照基本法 */
-  .Pc-feedAd-card-brand-wrapper>span {
+  .Pc-feedAd-card-brand-wrapper > span {
     color: #fff;
   }
 
@@ -458,7 +457,7 @@ url-prefix("https://zhuanlan.zhihu.com") {
 
   /* 私信聊天框 */
   .ChatWrapper .Chat {
-    filter: invert(.8);
+    filter: invert(0.8);
   }
 
   /* 右上角回答按钮 */
@@ -469,13 +468,13 @@ url-prefix("https://zhuanlan.zhihu.com") {
   /* 优化电子书搜索栏 */
   .KfeCollection-PcCollegeCard-root {
     background-color: #222;
-    border          : 1px solid #888;
-    border-radius   : 4px;
+    border: 1px solid #888;
+    border-radius: 4px;
   }
 
   /* 回答内容前提示 */
   .DisclaimerLabel,
-  html[data-theme=dark] .DisclaimerLabel {
+  html[data-theme='dark'] .DisclaimerLabel {
     color: rgb(121, 168, 226);
   }
 
@@ -506,17 +505,17 @@ url-prefix("https://zhuanlan.zhihu.com") {
   }
 
   .SearchTopicHeader-IntroTail {
-    color     : #81b9ff;
+    color: #81b9ff;
     background: none;
   }
 
   /* 增加在回答内有视频时的边框及文字 */
   .ZVideoLinkCard-info {
     background-color: #212121;
-    padding         : 12px;
-    border          : 1px solid #ffffffa8;
-    border-radius   : 0 0 12px 12px;
-    border-top      : none;
+    padding: 12px;
+    border: 1px solid #ffffffa8;
+    border-radius: 0 0 12px 12px;
+    border-top: none;
   }
 
   .ZVideoLinkCard-title {
@@ -534,7 +533,7 @@ url-prefix("https://zhuanlan.zhihu.com") {
   }
 
   .css-1qefhqu {
-    width           : 148px;
+    width: 148px;
     background-color: #222;
   }
 
@@ -550,7 +549,18 @@ url-prefix("https://zhuanlan.zhihu.com") {
   /* 盐选专栏提示框 */
   .KfeCollection-IntroCard {
     background-color: #222;
-    border          : 1px solid #d3d3d3;
+    border: 1px solid #d3d3d3;
+  }
+
+  /* 回答末尾文章推荐 */
+  .ArticleLinkCard {
+    background: #444;
+  }
+  .ArticleLinkCard-title {
+    color: #f6f6f6;
+  }
+  .ArticleLinkCard-bottomCardGradient {
+    background: linear-gradient(hsla(0, 0%, 96.5%, 0), #444444);
   }
 
   /* Miya Edit End */
@@ -589,27 +599,25 @@ url-prefix("https://zhuanlan.zhihu.com") {
   .PostItem-Title,
   .PostItem-Summary
 
-  /* 新版专栏 */
-    {
-    color     : #ddd !important;
+  /* 新版专栏 */ {
+    color: #ddd !important;
     background: #444 !important;
   }
 
   .VoteButton,
   .LikeButton
 
-  /* 新版点赞按钮 */
-    {
+  /* 新版点赞按钮 */ {
     background: #222 !important;
-    border    : 1px solid #3B6092 !important;
+    border: 1px solid #3b6092 !important;
   }
 
   .Button.is-active {
-    background: #3B6092 !important;
+    background: #3b6092 !important;
   }
 
   .AppHeader-navItem.is-active {
-    color: #CCC !important;
+    color: #ccc !important;
   }
 
   .HomeEntry-box,
@@ -617,7 +625,7 @@ url-prefix("https://zhuanlan.zhihu.com") {
     border: 1px solid #fff;
   }
 
-  img[eeimg="1"],
+  img[eeimg='1'],
   .ColumnEnd-icon {
     filter: invert(100%);
   }
@@ -629,8 +637,8 @@ url-prefix("https://zhuanlan.zhihu.com") {
   .TopicTag,
   .Comments-Packup-Button,
   .CommentEditor-singleButton {
-    color     : #fff !important;
-    background: #3B6092 !important;
+    color: #fff !important;
+    background: #3b6092 !important;
   }
 
   .entry-title,
@@ -772,7 +780,7 @@ url-prefix("https://zhuanlan.zhihu.com") {
   a.active,
   .zm-side-nav-link:hover {
     background: none #222 !important;
-    color     : #ddd !important;
+    color: #ddd !important;
   }
 
   .badge-summary *,
@@ -782,10 +790,10 @@ url-prefix("https://zhuanlan.zhihu.com") {
   }
 
   .modal-dialog-bg {
-    background: rgba(0, 0, 0, .8) !important;
+    background: rgba(0, 0, 0, 0.8) !important;
   }
 
-  .zu-top-nav-live>* {
+  .zu-top-nav-live > * {
     background: #222 !important;
   }
 
@@ -801,25 +809,25 @@ url-prefix("https://zhuanlan.zhihu.com") {
 
   .zg-btn-white.zu-button-more,
   .zu-autocomplete-row-search-link,
-  .load-more:HOVER,
+  .load-more:hover,
   .lbl,
   .zg-form-text-input.add-question-title-form,
   #zh-question-suggest-title-content,
   .zu-question-suggest-topic-input.label-input-label,
   .ac-row {
-    background         : none#222 !important;
-    color              : #bbb !important;
-    border-left-color  : #000 !important;
-    border-right-color : #222 !important;
+    background: none#222 !important;
+    color: #bbb !important;
+    border-left-color: #000 !important;
+    border-right-color: #222 !important;
     border-bottom-color: #000 !important;
-    border-top-color   : #000 !important;
-    margin-top         : 0px !important;
+    border-top-color: #000 !important;
+    margin-top: 0px !important;
   }
 
   .up.pressed,
   .down.pressed {
     background: none#444 !important;
-    color     : #bbb !important;
+    color: #bbb !important;
   }
 
   .zu-top-add-question,
@@ -829,7 +837,7 @@ url-prefix("https://zhuanlan.zhihu.com") {
   .modal-dialog.absolute-position,
   .modal-dialog-title.modal-dialog-title-draggable {
     background: none#222 !important;
-    color     : #bbb !important;
+    color: #bbb !important;
   }
 
   .ac-row.ac-active.active {
