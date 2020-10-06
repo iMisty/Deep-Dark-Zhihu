@@ -563,6 +563,64 @@ url-prefix("https://zhuanlan.zhihu.com")
     background: linear-gradient(hsla(0, 0%, 96.5%, 0), #444444);
   }
 
+  /* 新版左边栏 */
+  a.LeftItem {
+    color: #999;
+  }
+
+  /* 新版右边栏 */
+  .GlobalWrite--new .GlobalWrite-navBottom,
+  .GlobalBalance {
+    background: #2e2e2e;
+  }
+  .GlobalWrite-topTitle{
+    color: #999;
+  }
+
+  /* 屏蔽右侧广告 */
+  .GlobalSideBar-carouselAD{
+    display: none!important;
+  }
+
+  /* 热榜 */
+  .HotListNavEditPad,.HotList,.RoomChannel{
+    background: #222;
+    border-color: #444;
+  }
+  .HotListNavEditPad-title{
+    color: #999;
+  }
+  .HotListNav-item,.RoomChannel-item{
+    color: #999;
+    background: #2e2e2e;
+  }
+  .HotListNav-sortableItem[data-hotlist-identifier=total].is-active{
+    background: #444;
+  }
+
+  /* 发现页 */
+  /* 专题/收藏夹 */
+  .ExploreSpecialCard,.ExploreRoundtableCard,.ExploreCollectionCard,.ExploreColumnCard{
+    background: #2e2e2e;
+  }
+  /* 专题胶囊 */
+  .ExploreSpecialCard-contentTag{
+    background: #444;
+  }
+  /* 正文内文部分 */
+  .ExploreCollectionCard-contentExcerpt,.ExploreColumnCard-intro{
+    color: #999;
+  }
+  /* 收藏夹作者 */
+  .ExploreCollectionCard-creatorName{
+    color: #d3d3d3;
+  }
+  /* 按钮 */
+  .ExploreHomePage-ContentSection-moreButton a{
+    color: #2e2e2e;
+  }
+
+
   /* Miya Edit End */
 
   /* 委托刘看山邀请 */
