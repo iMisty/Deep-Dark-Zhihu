@@ -573,53 +573,67 @@ url-prefix("https://zhuanlan.zhihu.com")
   .GlobalBalance {
     background: #2e2e2e;
   }
-  .GlobalWrite-topTitle{
+  .GlobalWrite-topTitle {
     color: #999;
   }
 
   /* 屏蔽右侧广告 */
-  .GlobalSideBar-carouselAD{
-    display: none!important;
+  .GlobalSideBar-carouselAD {
+    display: none !important;
   }
 
   /* 热榜 */
-  .HotListNavEditPad,.HotList,.RoomChannel{
+  .HotListNavEditPad,
+  .HotList,
+  .RoomChannel {
     background: #222;
     border-color: #444;
   }
-  .HotListNavEditPad-title{
+  .HotListNavEditPad-title {
     color: #999;
   }
-  .HotListNav-item,.RoomChannel-item{
+  .HotListNav-item,
+  .RoomChannel-item {
     color: #999;
     background: #2e2e2e;
   }
-  .HotListNav-sortableItem[data-hotlist-identifier=total].is-active{
+  .HotListNav-sortableItem[data-hotlist-identifier='total'].is-active {
     background: #444;
   }
 
   /* 发现页 */
   /* 专题/收藏夹 */
-  .ExploreSpecialCard,.ExploreRoundtableCard,.ExploreCollectionCard,.ExploreColumnCard{
+  .ExploreSpecialCard,
+  .ExploreRoundtableCard,
+  .ExploreCollectionCard,
+  .ExploreColumnCard {
     background: #2e2e2e;
   }
   /* 专题胶囊 */
-  .ExploreSpecialCard-contentTag{
+  .ExploreSpecialCard-contentTag {
     background: #444;
   }
   /* 正文内文部分 */
-  .ExploreCollectionCard-contentExcerpt,.ExploreColumnCard-intro{
+  .ExploreCollectionCard-contentExcerpt,
+  .ExploreColumnCard-intro {
     color: #999;
   }
   /* 收藏夹作者 */
-  .ExploreCollectionCard-creatorName{
+  .ExploreCollectionCard-creatorName {
     color: #d3d3d3;
   }
   /* 按钮 */
-  .ExploreHomePage-ContentSection-moreButton a{
+  .ExploreHomePage-ContentSection-moreButton a {
     color: #2e2e2e;
   }
 
+  /* 视频页 */
+  .ZVideo-title,
+  .ZVideo-description,
+  .ZVideoRecommendations-title,
+  .ZVideoRecommendationItem-title {
+    color: #999;
+  }
 
   /* Miya Edit End */
 
