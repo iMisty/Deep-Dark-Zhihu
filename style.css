@@ -635,6 +635,14 @@ url-prefix("https://zhuanlan.zhihu.com")
     color: #999;
   }
 
+  /* Update: 2021.2.13 回答问题页面 */
+  .Creator>div{
+    background-color: #222;
+  }
+  .Creator>div>div>a{
+    color: #999;
+  }
+
   /* Miya Edit End */
 
   /* 委托刘看山邀请 */
