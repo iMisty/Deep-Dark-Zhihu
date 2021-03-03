@@ -642,6 +642,13 @@ url-prefix("https://zhuanlan.zhihu.com")
   .Creator>div>div>a{
     color: #999;
   }
+  /* Update: 2021.3.3 回答部分Markdown标题 */
+  .Catalog-FirstLevelTitle{
+    color: #eee;
+  }
+  .Catalog-SecondLevelTitle{
+    color: #999;
+  }
 
   /* Miya Edit End */
 
