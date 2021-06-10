@@ -297,7 +297,7 @@ url-prefix("https://zhuanlan.zhihu.com")
   .ReportItem-Link,
   .Button--link,
   .Toolbar-Link a,
-  html[data-theme='dark'] .Toolbar-Link a {
+  html[data-theme="dark"] .Toolbar-Link a {
     color: #57b1fd;
   }
 
@@ -474,7 +474,7 @@ url-prefix("https://zhuanlan.zhihu.com")
 
   /* 回答内容前提示 */
   .DisclaimerLabel,
-  html[data-theme='dark'] .DisclaimerLabel {
+  html[data-theme="dark"] .DisclaimerLabel {
     color: rgb(121, 168, 226);
   }
 
@@ -597,7 +597,7 @@ url-prefix("https://zhuanlan.zhihu.com")
     color: #999;
     background: #2e2e2e;
   }
-  .HotListNav-sortableItem[data-hotlist-identifier='total'].is-active {
+  .HotListNav-sortableItem[data-hotlist-identifier="total"].is-active {
     background: #444;
   }
 
@@ -636,20 +636,35 @@ url-prefix("https://zhuanlan.zhihu.com")
   }
 
   /* Update: 2021.2.13 回答问题页面 */
-  .Creator>div{
+  .Creator > div {
     background-color: #222;
   }
-  .Creator>div>div>a{
+  .Creator > div > div > a {
     color: #999;
   }
   /* Update: 2021.3.3 回答部分Markdown标题 */
-  .Catalog-FirstLevelTitle{
+  .Catalog-FirstLevelTitle {
     color: #eee;
   }
-  .Catalog-SecondLevelTitle{
+  .Catalog-SecondLevelTitle {
     color: #999;
   }
 
+  /* Update: 2021.6.10 回答问题底部设置栏 */
+  .AnswerForm-footer > * {
+    background-color: #222;
+  }
+  /* 文档导入按钮 */
+  .css-16eulm {
+    background-color: #222;
+    color: #999;
+  }
+  /* 文档导入模态框 */
+  .Modal-footer,
+  .Editable-docModal-title {
+    background-color: #222;
+    color: #999;
+  }
   /* Miya Edit End */
 
   /* 委托刘看山邀请 */
@@ -712,7 +727,7 @@ url-prefix("https://zhuanlan.zhihu.com")
     border: 1px solid #fff;
   }
 
-  img[eeimg='1'],
+  img[eeimg="1"],
   .ColumnEnd-icon {
     filter: invert(100%);
   }
@@ -866,7 +881,7 @@ url-prefix("https://zhuanlan.zhihu.com")
   li.tab-nav:nth-child(1)>a:nth-child(1),
   a.active,
   .zm-side-nav-link:hover {
-    background: none #222 !important;
+    background: #222 !important;
     color: #ddd !important;
   }
 
